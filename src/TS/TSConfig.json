@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "watch": true,
+        "noEmitOnError": true,
+        "outFile": "./JS/Main.js",
+        "outDir": "./JS"
+    },
+
+    "files": [
+        "Main.ts"
+    ]
+}

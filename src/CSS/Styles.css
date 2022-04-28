@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Orelega";
+    src: url("../FONT/Orelega/OrelegaOne-Regular.ttf");
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Orelega";
+}
+
+/* Стили для верхней надписи */
+
+.label {
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 0 10px blue;
+}
+
+.container, .alert-message-result {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.alert-message-result {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container-for-vopros {
+    font-size: 20px;
+}
+
+/* Стили для элиментов выбора ответа */
+
+.item-response {
+    padding: 10px;
+}
+
+.item-response:hover {
+    background: orange;    
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+/* Отступы сверху для разных блоков с ответами */
+
+.container-for-vopros-2, .container-for-vopros-3, .container-for-vopros-4, .container-for-vopros-5 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Стили для кнопки */
+
+.button, .button-replay {
+    width: 250px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover, .button-replay:hover {
+    color: orange;
+}
+
+.button-replay {
+    display: none;
+}
